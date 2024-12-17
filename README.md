@@ -55,7 +55,7 @@ To set up the project locally, follow these steps:
 ## Folder Structure
 
 
-```
+
     financial-news-stock-analysis/
     │
     ├── data/                          # Data folder
@@ -73,7 +73,7 @@ To set up the project locally, follow these steps:
     ├── requirements.txt               # List of project dependencies
     └── .gitignore                     # Git ignore file
 
-    ```
+    ``` ```
 
 ---
 
