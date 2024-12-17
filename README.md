@@ -40,34 +40,40 @@ To set up the project locally, follow these steps:
 2. **Navigate to the project directory**:
    ```bash
    cd financial-news-stock-analysis
-3. **Create and activate a virtual environment:**
-python -m venv venv
-source venv/bin/activate  # Linux/MacOS
-venv\Scripts\activate     # Windows
+3. **Create and activate a virtual environment**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/MacOS
+   venv\Scripts\activate     # Windows
 
-4. **Install the dependencies:**
-pip install -r requirements.txt
+4. **Install the dependencies**:
+   ```bash
+   pip install -r requirements.txt
 
 ---
 
 ## Folder Structure
 
-financial-news-stock-analysis/
-│
-├── data/                          # Data folder
-│   ├── yfinance_data/             # Stock data CSV files (AAPL, MSFT, etc.)
-│   ├── historical_data/           # News data CSV files
-│
-├── src/                           # Source code for analysis
-│   ├── sentiment_analysis.py      # Sentiment analysis code using TextBlob
-│   ├── stock_analysis.py          # Stock price analysis and calculation
-│
-├── notebooks/                     # Jupyter Notebooks for analysis
-│   ├── exploratory_data_analysis.ipynb
-│
-├── README.md                      # Project README
-├── requirements.txt               # List of project dependencies
-└── .gitignore                     # Git ignore file
+
+```
+    financial-news-stock-analysis/
+    │
+    ├── data/                          # Data folder
+    │   ├── yfinance_data/             # Stock data CSV files (AAPL, MSFT, etc.)
+    │   ├── historical_data/           # News data CSV files
+    │
+    ├── src/                           # Source code for analysis
+    │   ├── sentiment_analysis.py      # Sentiment analysis code using TextBlob
+    │   ├── stock_analysis.py          # Stock price analysis and calculation
+    │
+    ├── notebooks/                     # Jupyter Notebooks for analysis
+    │   ├── exploratory_data_analysis.ipynb
+    │
+    ├── README.md                      # Project README
+    ├── requirements.txt               # List of project dependencies
+    └── .gitignore                     # Git ignore file
+
+    ```
 
 ---
 
@@ -82,6 +88,7 @@ stock: Related stock ticker symbol.
 ---
 
 ## Usage
+```
 
 Step 1: Data Alignment
 Merge stock data and news data by aligning them on the date column.
@@ -98,12 +105,14 @@ Average daily news sentiment scores.
 Daily percentage change in stock returns.
 Step 5: Visualization
 Generate scatter plots to visualize the relationship between sentiment scores and stock returns.
+```
 
 ---
 
 
 ## Steps Completed
 
+```
 Task 1: Git Setup and Version Control
 
 Git environment initialized and code structured in a clean manner.
@@ -116,14 +125,7 @@ Task 3: Correlation Between News and Stock Movement
 Aligned stock data and news data by date.
 Performed sentiment analysis on headlines.
 Calculated daily stock returns and correlation between sentiment scores and stock returns.
-
----
-
-## Results and Visualizations
-
-# Example visualization code (optional for reference):
-# plt.scatter(aligned_data['avg_sentiment'], aligned_data['daily_return'], alpha=0.5)
-
+```
 ---
 
 ## Contributing
