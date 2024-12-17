@@ -88,7 +88,7 @@ stock: Related stock ticker symbol.
 ---
 
 ## Usage
-```
+
 
 Step 1: Data Alignment
 Merge stock data and news data by aligning them on the date column.
@@ -105,14 +105,14 @@ Average daily news sentiment scores.
 Daily percentage change in stock returns.
 Step 5: Visualization
 Generate scatter plots to visualize the relationship between sentiment scores and stock returns.
-```
+
 
 ---
 
 
 ## Steps Completed
 
-```
+
 Task 1: Git Setup and Version Control
 
 Git environment initialized and code structured in a clean manner.
@@ -125,7 +125,7 @@ Task 3: Correlation Between News and Stock Movement
 Aligned stock data and news data by date.
 Performed sentiment analysis on headlines.
 Calculated daily stock returns and correlation between sentiment scores and stock returns.
-```
+
 ---
 
 ## Contributing
